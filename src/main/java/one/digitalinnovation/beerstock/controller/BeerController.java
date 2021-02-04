@@ -24,8 +24,12 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/beers")
-@AllArgsConstructor(onConstructor = @__(@Autowired))
 public class BeerController implements BeerControllerDocs {
+
+    @Autowired
+    public BeerController(BeerService beerService) {
+        this.beerService = beerService;
+    }
 
     private final BeerService beerService;
 
