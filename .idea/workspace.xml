@@ -32,6 +32,9 @@
     <property name="settings.editor.selected.configurable" value="Lombok plugin" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="one.digitalinnovation.beerstock" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="one.digitalinnovation.beerstock.builder" />
     </key>
@@ -41,12 +44,12 @@
       <module name="beerstock" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="one.digitalinnovation.beerstock.builder.service.*" />
+          <option name="PATTERN" value="one.digitalinnovation.beerstock.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="one.digitalinnovation.beerstock.builder.service" />
-      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.beerstock.builder.service.BeerServiceTest" />
+      <option name="PACKAGE_NAME" value="one.digitalinnovation.beerstock.service" />
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.beerstock.service.BeerServiceTest" />
       <option name="METHOD_NAME" value="whenBeerInformedThenShouldBeCreated" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
